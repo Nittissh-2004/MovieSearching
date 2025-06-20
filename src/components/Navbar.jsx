@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { moviesContext } from "./MoviesProvider";
+import { moviesContext } from "src/components/MoviesProvider";
 
 const Navbar = () => {
     const { count, setCount } = useContext(moviesContext);
