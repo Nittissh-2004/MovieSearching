@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Search from "./Pages/Search";
-import TotalMovies from "./Pages/TotalMovies";
+import Search from "./pages/Search";
+import TotalMovies from "./pages/TotalMovies";
 import Movie from "./pages/Movie";
-import PageNotFound from "./Pages/PageNotFound";
-import Favorites from "./Pages/Favorites";
+import PageNotFound from "./pages/PageNotFound";
+import Favorites from "./pages/favorites";
 const App = () => {
   return (
     <div>
