@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navbar from "src/components/Navbar";
-import Footer from "src/components/Footer";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Search from "./Pages/Search";
 import TotalMovies from "./Pages/TotalMovies";
 import Movie from "./pages/Movie";
